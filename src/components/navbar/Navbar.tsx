@@ -1,5 +1,6 @@
 import "./navbar.scss";
 import { MdMenu } from "react-icons/md";
+import { CiLogout } from "react-icons/ci";
 import { useState } from "react";
 
 function Navbar() {
@@ -51,6 +52,10 @@ function Navbar() {
                         <a href="#" className="sidebar__a">Contact</a>
                     </li>
                 </ul>
+
+                <button className="sidebar__btn"> <CiLogout className="sidebar__btn--icon"
+                    onClick={showSidebar}
+                /> </button>
             </section>
         </nav>
     </>

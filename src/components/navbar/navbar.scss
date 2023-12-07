@@ -133,4 +133,17 @@
             font-size: 1.2rem;
         }
     }
+
+    .sidebar__btn{
+        display: block;
+        height: 100%;
+        margin-left: 13rem;
+        
+        &--icon{
+            width: 1.8rem;
+            height: 1.8rem;
+            margin-top: 5px;
+            color: white;
+        }
+    }
 }
