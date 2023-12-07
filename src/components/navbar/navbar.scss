@@ -1,0 +1,136 @@
+@use "../../Sass/mixin" as *;
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.103);
+
+    &__container{
+        width: 100%;
+        @include container;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4rem;
+        color: black;
+    }
+
+    &__btn{
+        display: none;
+    }
+
+    &__logo{
+        color: inherit;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    &__ul{
+        display: flex;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
+
+    &__a{
+        color: inherit;
+        font-size: 1.2rem;
+    }
+}
+
+.sidebar, .sidebar-show {
+    display: none;
+}
+
+//------------------------------------------------------------------------------------
+
+@media (max-width: 700px){
+    .nav{
+
+        &__ul{
+            display: none;
+        }
+
+        &__btn{
+            display: block;
+            height: 100%;
+            
+            &--icon{
+                width: 1.8rem;
+                height: 1.8rem;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    //
+
+    .sidebar{
+        display: block;
+        position: fixed;
+        width: 18rem;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(19, 15, 15);
+        color: white;
+        padding: 1rem;
+        transition: 1s;
+        margin-left: -100%;
+    
+        &__logo{
+            color: inherit;
+            font-size: 1.5rem;
+            padding: 1rem 0;
+        }
+    
+        &__ul{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+            margin-top: 1.5rem;
+            margin-left: 2rem;
+        }
+    
+        &__a{
+            color: inherit;
+            font-size: 1.2rem;
+        }
+    }
+    
+    .sidebar-show{
+        display: block;
+        position: fixed;
+        width: 18rem;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(19, 15, 15);
+        color: white;
+        padding: 1rem;
+        transition: 1s;
+        margin-left: 0;
+    
+        &__logo{
+            color: inherit;
+            font-size: 1.5rem;
+            padding: 1rem 0;
+        }
+    
+        &__ul{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem 0;
+            margin-top: 1.5rem;
+            margin-left: 2rem;
+        }
+    
+        &__a{
+            color: inherit;
+            font-size: 1.2rem;
+        }
+    }
+}

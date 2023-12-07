@@ -1,0 +1,59 @@
+import "./navbar.scss";
+import { MdMenu } from "react-icons/md";
+import { useState } from "react";
+
+function Navbar() {
+    const [showMenu, setShowMenu] = useState(false);
+
+    const showSidebar = ()=>{
+        setShowMenu(!showMenu)
+    }
+
+    return <>
+        <nav className="nav">
+            <section className="nav__container">
+                <a href="#" className="nav__logo">Web Developer</a>
+
+                <button className="nav__btn"> <MdMenu className="nav__btn--icon"
+                    onClick={showSidebar}
+                /> </button>
+
+                <ul className="nav__ul">
+                    <li className="nav__li">
+                        <a href="#" className="nav__a">Home</a>
+                    </li>
+                    <li className="nav__li">
+                        <a href="#" className="nav__a">About</a>
+                    </li>
+                    <li className="nav__li">
+                        <a href="#" className="nav__a">Projects</a>
+                    </li>
+                    <li className="nav__li">
+                        <a href="#" className="nav__a">Contact</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section className={`${showMenu ? "sidebar-show" : "sidebar"}`}>
+                <a href="#" className="sidebar__logo">Web Developer</a>
+
+                <ul className="sidebar__ul">
+                    <li className="sidebar__li">
+                        <a href="#" className="sidebar__a">Home</a>
+                    </li>
+                    <li className="sidebar__li">
+                        <a href="#" className="sidebar__a">About</a>
+                    </li>
+                    <li className="sidebar__li">
+                        <a href="#" className="sidebar__a">Projects</a>
+                    </li>
+                    <li className="sidebar__li">
+                        <a href="#" className="sidebar__a">Contact</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </>
+}
+
+export default Navbar
