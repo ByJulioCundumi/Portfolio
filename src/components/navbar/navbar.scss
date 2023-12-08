@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.103);
+    background-color: white;
+    //box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.103);
 
     &__container{
         width: 100%;
@@ -13,8 +14,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 4rem;
+        padding: 0 7rem;
         color: black;
+        background-color: white;
     }
 
     &__btn{
@@ -45,8 +47,12 @@
 
 //------------------------------------------------------------------------------------
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     .nav{
+
+        &__container{
+            padding: 0 4rem;
+        }
 
         &__ul{
             display: none;

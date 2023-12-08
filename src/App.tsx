@@ -1,4 +1,5 @@
 import './app.scss'
+import Greeting from './components/greeting/Greeting'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Greeting/>
     </>
   )
 }
