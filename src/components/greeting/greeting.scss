@@ -10,11 +10,30 @@
     justify-content: space-around;
     align-items: center;
 
-    &__img--img{
-        display: block;
-        object-fit: cover;
-        width: 450px;
-        height: 450px;
+    &__img{
+
+        &--img{
+            top: 0;
+            width: 400px;
+            height: 350px;
+            transition: 1s;
+            position: relative;
+        }
+
+        &--blob{
+            width: 450px;
+            height: 370px;
+            transition: 1s;
+            position: absolute;
+        }
+    }
+
+    &__img:hover .greeting__img--img{
+        transform: translateY(-7%);
+    }
+
+    &__img:hover .greeting__img--blob{
+        transform: translateX(5%);
     }
 
     &__text{
@@ -27,6 +46,7 @@
 
     &__hello{
         font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
     }
 
     &__h1{
@@ -35,6 +55,7 @@
 
     &__dev{
         font-size: 1.3rem;
+        font-family: 'Raleway', sans-serif;
     }
 
     &__btn{
@@ -47,6 +68,15 @@
             border: 1px solid rgba(0, 0, 0, 0.226);
             border-radius: 0.7rem;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.247);
+            font-family: 'Raleway', sans-serif;
+            border-color: rgb(0, 153, 255);;
+            cursor: pointer;
+            transition: 0.8s;
+        }
+
+        &--cv:hover{
+            transform: translateY(-3px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.247);
         }
 
         &--contact{
@@ -54,14 +84,49 @@
             border: 1px solid rgba(0, 0, 0, 0.226);
             border-radius: 0.7rem;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.247);
+            font-family: 'Raleway', sans-serif;
+            cursor: pointer;
+            transition: 0.8s;
+            border-color: rgba(14, 13, 13, 0.774);
+        }
+
+        &--contact:hover{
+            transform: translateY(-3px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.247);
         }
     }
 
+    &__active{
+        color: rgb(0, 153, 255);;
+    }
 }
 
-@media (max-width: 800px){
+@media (max-width: 850px){
     .greeting{
         flex-direction: column;
+
+        &__img{
+
+            &--img{
+                top: 0;
+                width: 400px;
+                height: 350px;
+                transition: 1s;
+                position: relative;
+            }
+    
+            &--blob{
+                width: 450px;
+                height: 370px;
+                transition: 1s;
+                position: absolute;
+            }
+        }
+
+        &__img{
+            margin: 3rem 0;
+            margin-right: 4rem;
+        }
 
         &__text{
             padding-right: 0;

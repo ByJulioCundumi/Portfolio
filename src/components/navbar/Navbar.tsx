@@ -13,7 +13,7 @@ function Navbar() {
     return <>
         <nav className="nav">
             <section className="nav__container">
-                <a href="#" className="nav__logo">Web Developer</a>
+                <a href="#" className="nav__logo"><span>W</span>eb <span>D</span>e<span>v</span>e<span>l</span>o<span>p</span>e<span>r</span></a>
 
                 <button className="nav__btn"> <MdMenu className="nav__btn--icon"
                     onClick={showSidebar}
