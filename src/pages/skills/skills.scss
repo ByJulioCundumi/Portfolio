@@ -1,0 +1,28 @@
+.skills{
+    width: 100%;
+    padding: 1rem;
+
+    &__title{
+        margin-bottom: 0.5rem;
+    }
+
+    &__boxcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    &__box{
+        border: 1px solid rgba(0, 153, 255, 0.288);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    &__box:hover{
+        transform: translateY(-5px);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+    }
+}

@@ -1,0 +1,16 @@
+.mystory{
+    width: 100%;
+    padding: 1rem;
+
+    &__title{
+        margin-bottom: 0.5rem;
+    }
+
+    &__text{
+        text-align: justify;
+    }
+
+    &__active{
+        color: rgb(0, 153, 255)
+    }
+}

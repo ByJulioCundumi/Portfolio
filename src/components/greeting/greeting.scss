@@ -62,6 +62,7 @@
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
+        padding: 0.2rem 0;
 
         &--cv{
             padding: 1rem 1.5rem;
@@ -97,7 +98,7 @@
     }
 
     &__active{
-        color: rgb(0, 153, 255);;
+        color: rgb(0, 153, 255);
     }
 }
 

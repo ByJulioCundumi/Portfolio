@@ -13,7 +13,7 @@ function Navbar() {
     return <>
         <nav className="nav">
             <section className="nav__container">
-                <a href="#" className="nav__logo"><span>W</span>eb <span>D</span>e<span>v</span>e<span>l</span>o<span>p</span>e<span>r</span></a>
+                <a href="#" className="nav__logo"><span>W</span>eb <span>D</span>eve<span>l</span>ope<span>r</span></a>
 
                 <button className="nav__btn"> <MdMenu className="nav__btn--icon"
                     onClick={showSidebar}
@@ -21,16 +21,16 @@ function Navbar() {
 
                 <ul className="nav__ul">
                     <li className="nav__li">
-                        <a href="#" className="nav__a">Home</a>
+                        <a href="#" className="nav__a"><span className="nav__active">H</span>ome</a>
                     </li>
                     <li className="nav__li">
-                        <a href="#" className="nav__a">About</a>
+                        <a href="#" className="nav__a"><span className="nav__active">A</span>bout</a>
                     </li>
                     <li className="nav__li">
-                        <a href="#" className="nav__a">Projects</a>
+                        <a href="#" className="nav__a"><span className="nav__active">P</span>rojects</a>
                     </li>
                     <li className="nav__li">
-                        <a href="#" className="nav__a">Contact</a>
+                        <a href="#" className="nav__a"><span className="nav__active">C</span>ontact</a>
                     </li>
                 </ul>
             </section>

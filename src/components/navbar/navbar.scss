@@ -59,6 +59,10 @@
     &__li:hover{
         transform: translateY(-5px);
     }
+
+    &__active{
+        color: rgb(0, 153, 255);
+    }
     
 }
 
