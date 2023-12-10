@@ -16,7 +16,7 @@ function Education() {
                 <p>-</p>
                 <p>Present</p>
             </div>
-            <p>Catholic University Foundation of the North</p>
+            <p className="education__uni">Catholic University Foundation of the North. [Colombia]</p>
         </div>
 
         <div className="education__text">
@@ -29,7 +29,7 @@ function Education() {
                 <p>-</p>
                 <p>Presente</p>
             </div>
-            <p>Fundación Universitaria Catolica del Norte</p>
+            <p className="education__uni">Fundación Universitaria Catolica del Norte. [Colombia]</p>
         </div>
     </section>
   </>

@@ -60,6 +60,12 @@
         transform: translateY(-5px);
     }
 
+    &__selected{
+        transform: translateY(-5px);
+        color: rgb(0, 153, 255);;
+        border-bottom: 1px solid rgba(0, 47, 255, 0.288);
+    }
+
     &__active{
         color: rgb(0, 153, 255);
     }

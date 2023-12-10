@@ -68,7 +68,7 @@ function Skills() {
             </div>
             
             <div className="skills__tools">
-                <h4 className="skills__title">Tools:</h4>
+                <h3 className="skills__title">Tools:</h3>
                 <div className="skills__boxcontainer skills__title">
                     <div className="skills__box">
                         <FaGitAlt />
@@ -89,13 +89,13 @@ function Skills() {
                 </div>
             </div>
             <div className="skills__languages skills__title">
-                <h4 className="skills__title">Languages:</h4>
+                <h3 className="skills__title">Languages:</h3>
                 <div className="skills__boxcontainer skills__title">
                     <div className="skills__box">
-                        <p>Spanish: [Native]</p>
+                        <p>Spanish [Native]</p>
                     </div>
                     <div className="skills__box">
-                        <p>English: [A2]</p>
+                        <p>English [A2]</p>
                     </div>
                 </div>
             </div>

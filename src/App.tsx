@@ -6,7 +6,8 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import Mystory from './pages/mystory/Mystory'
 import Skills from './pages/skills/Skills'
 import Education from './pages/education/Education'
-import Experience from './pages/experience/Experience'
+import Services from './pages/services/Services'
+import Projects from './components/projects/Projects'
 
 function App() {
 
@@ -18,11 +19,12 @@ function App() {
         <Routes>
           <Route path='/' element={<About/>}>
             <Route path='/mystory' element={<Mystory/>}/>
-            <Route path='/' element={<Skills/>}/>
+            <Route path='/skills' element={<Skills/>}/>
             <Route path='/education' element={<Education/>}/>
-            <Route path='/experience' element={<Experience/>}/>
+            <Route path='/' element={<Services/>}/>
           </Route>
         </Routes>
+        <Projects/>
       </BrowserRouter>
     </>
   )

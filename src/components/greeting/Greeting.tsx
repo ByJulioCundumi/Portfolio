@@ -8,7 +8,7 @@ function Greeting() {
     });
 
     return <>
-        <section className="greeting">
+        <section className="greeting" id="homePage">
             <div className="greeting__img">
                 <img src="https://www.pngmart.com/files/23/Blob-PNG-Picture.png" alt="" className="greeting__img--blob" />
                 <img src="https://static.vecteezy.com/system/resources/previews/019/153/003/original/3d-minimal-programming-icon-coding-screen-web-development-concept-laptop-with-a-coding-screen-and-a-coding-icon-3d-illustration-png.png" alt="" className="greeting__img--img" />
