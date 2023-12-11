@@ -8,6 +8,7 @@ import Skills from './pages/skills/Skills'
 import Education from './pages/education/Education'
 import Services from './pages/services/Services'
 import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           </Route>
         </Routes>
         <Projects/>
+        <Contact/>
       </BrowserRouter>
     </>
   )
