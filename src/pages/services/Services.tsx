@@ -20,7 +20,7 @@ function Services() {
           <div className="services__card">
             <h4 className="services__card--title">Full Stack</h4>
             <p className="services__card--p">
-            I can build complete web applications using the MERN stack, 
+            I can build complete web applications using the MERN and MEAN stack, 
             </p>
           </div>
           <div className="services__card">

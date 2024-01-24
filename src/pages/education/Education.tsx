@@ -14,7 +14,7 @@ function Education() {
                 <p>-</p>
                 <p>Jan 2022</p>
                 <p>-</p>
-                <p>Present</p>
+                <p>2025</p>
             </div>
             <p className="education__uni">Catholic University Foundation of the North. [Colombia]</p>
         </div>
@@ -27,7 +27,7 @@ function Education() {
                 <p>-</p>
                 <p>Ene 2022</p>
                 <p>-</p>
-                <p>Presente</p>
+                <p>2025</p>
             </div>
             <p className="education__uni">Fundación Universitaria Catolica del Norte. [Colombia]</p>
         </div>

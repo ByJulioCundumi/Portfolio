@@ -13,6 +13,7 @@ import { FaGitAlt } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaNpm } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
+import { FaAngular } from "react-icons/fa";
 import { PiBracketsCurlyLight } from "react-icons/pi";
 
 function Skills() {
@@ -40,6 +41,10 @@ function Skills() {
                 <div className="skills__box">
                     <FaReact />
                     <p>React</p>
+                </div>
+                <div className="skills__box">
+                    <FaAngular />
+                    <p>Angular</p>
                 </div>
                 <div className="skills__box">
                     <FaNodeJs />

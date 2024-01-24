@@ -7,7 +7,7 @@ import { FaGithubAlt } from "react-icons/fa";
 
 function Contact() {
     return <>
-        <section className="contact">
+        <section className="contact" id="contactPage">
             <h2 className="contact__title">Contact Me</h2>
 
             <div className="contact__container">
@@ -25,8 +25,8 @@ function Contact() {
                     </div>
 
                     <div className="contact__additional--btns">
-                        <button className="contact__additional--btn contact__btn--icon"><FaLinkedin className="contact__icon"/></button>
-                        <button className="contact__additional--btn contact__btn--icon"><FaGithubAlt className="contact__icon"/></button>
+                        <a target="_blank" href="https://www.linkedin.com/in/julio-cundumi-estupi%C3%B1an-7923092aa/" className="contact__additional--btn contact__btn--icon"><FaLinkedin className="contact__icon"/></a>
+                        <a target="_blank" href="https://github.com/ByJulioCundumi" className="contact__additional--btn contact__btn--icon"><FaGithubAlt className="contact__icon"/></a>
                     </div>
                 </div>
                 <div className="contact__line"></div>

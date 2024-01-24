@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Greeting() {
     const [text] = useTypewriter({
-        words: ["Developer"],
+        words: ["Dev. | React, Angular"],
         loop: 0
     });
 
@@ -20,8 +20,8 @@ function Greeting() {
                 <p className="greeting__dev"> Web <span className="greeting__active">{text} <Cursor/></span> </p>
 
                 <div className="greeting__btn">
-                    <button className="greeting__btn--cv">Download CV</button>
-                    <button className="greeting__btn--contact">Conctact</button>
+                    <a href="#" className="greeting__btn--cv">Download CV</a>
+                    <a href="#contactPage" className="greeting__btn--contact">Conctact</a>
                 </div>
             </div>
         </section>
