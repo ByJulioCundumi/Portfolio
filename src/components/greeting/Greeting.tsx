@@ -10,8 +10,8 @@ function Greeting() {
     return <>
         <section className="greeting" id="homePage">
             <div className="greeting__img">
-                <img src="https://www.pngmart.com/files/23/Blob-PNG-Picture.png" alt="" className="greeting__img--blob" />
-                <img src="https://static.vecteezy.com/system/resources/previews/019/153/003/original/3d-minimal-programming-icon-coding-screen-web-development-concept-laptop-with-a-coding-screen-and-a-coding-icon-3d-illustration-png.png" alt="" className="greeting__img--img" />
+                <img src="src/assets/img/blob.png" alt="" className="greeting__img--blob" />
+                <img src="src/assets/img/computer.webp" alt="" className="greeting__img--img" />
             </div>
 
             <div className="greeting__text">
@@ -20,7 +20,7 @@ function Greeting() {
                 <p className="greeting__dev"> Web <span className="greeting__active">{text} <Cursor/></span> </p>
 
                 <div className="greeting__btn">
-                    <a href="#" className="greeting__btn--cv">Download CV</a>
+                    <a href="#" download={"src/assets/files/"} className="greeting__btn--cv">Download CV</a>
                     <a href="#contactPage" className="greeting__btn--contact">Conctact</a>
                 </div>
             </div>

@@ -19,7 +19,8 @@ function Projects() {
           <div className="projects__text">
             <h3 className="projects__name">Job Portal - [Angular, Node]</h3>
             <p className="projects__description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nesciunt repellendus architecto sit nemo vel obcaecati sed dicta eos nobis.
+            I developed a modern job portal with intuitive functions to create, update and 
+            delete job offers, equipped with jwt authentication and a role system.
             </p>
 
             <div className="projects__tools">
@@ -35,6 +36,7 @@ function Projects() {
                 <p className="projects__tools--box">NodeJs</p>
                 <p className="projects__tools--box">ExpressJs</p>
                 <p className="projects__tools--box">TypeORM</p>
+                <p className="projects__tools--box">NgRx</p>
               </div>
             </div>
             <div className="projects__btns">
@@ -60,7 +62,8 @@ function Projects() {
           <div className="projects__text">
             <h3 className="projects__name">Ecommerce - [React, Node]</h3>
             <p className="projects__description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nesciunt repellendus architecto sit nemo vel obcaecati sed dicta eos nobis.
+            E-commerce website with functions to create, update and delete products, 
+            equipped with jwt authentication, shopping cart, a role system and other features.
             </p>
 
             <div className="projects__tools">
@@ -76,6 +79,7 @@ function Projects() {
                 <p className="projects__tools--box">NodeJs</p>
                 <p className="projects__tools--box">ExpressJs</p>
                 <p className="projects__tools--box">TypeORM</p>
+                <p className="projects__tools--box">Redux</p>
               </div>
             </div>
             <div className="projects__btns">
@@ -101,7 +105,8 @@ function Projects() {
           <div className="projects__text">
             <h3 className="projects__name">Tasks Website - [React, Node]</h3>
             <p className="projects__description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nesciunt repellendus architecto sit nemo vel obcaecati sed dicta eos nobis.
+            Simple task website with crud functions to create, update and delete a task, 
+            equipped with jwt authentication and form validation.
             </p>
 
             <div className="projects__tools">
