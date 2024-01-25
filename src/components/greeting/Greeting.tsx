@@ -17,7 +17,7 @@ function Greeting() {
             <div className="greeting__text">
                 <p className="greeting__hello">Hello, I'm</p>
                 <h1 className="greeting__h1">Julio Cundumi E.</h1>
-                <p className="greeting__dev"> Web <span className="greeting__active">{text} <Cursor/></span> </p>
+                <p className="greeting__dev"> Web <span className="greeting__active">{text} <Cursor /></span> </p>
 
                 <div className="greeting__btn">
                     <a href="dist/devcv-react-angular.pdf" download="Julio-Dev-CV" className="greeting__btn--cv">Download CV</a>
