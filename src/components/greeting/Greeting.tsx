@@ -10,8 +10,8 @@ function Greeting() {
     return <>
         <section className="greeting" id="homePage">
             <div className="greeting__img">
-                <img src="src/assets/img/blob.png" alt="" className="greeting__img--blob" />
-                <img src="src/assets/img/computer.webp" alt="" className="greeting__img--img" />
+                <img src="https://res.cloudinary.com/dscmahnke/image/upload/v1706141227/portfolio/qcr3lzpmuaznnpxg544c.png" alt="" className="greeting__img--blob" />
+                <img src="https://res.cloudinary.com/dscmahnke/image/upload/v1706141229/portfolio/kyu3ebr8letodw1vdnzr.webp" alt="" className="greeting__img--img" />
             </div>
 
             <div className="greeting__text">
