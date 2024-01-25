@@ -20,7 +20,7 @@ function Greeting() {
                 <p className="greeting__dev"> Web <span className="greeting__active">{text} <Cursor/></span> </p>
 
                 <div className="greeting__btn">
-                    <a href="public/DevCV-React-Angular.pdf" download="Julio-Dev-CV" className="greeting__btn--cv">Download CV</a>
+                    <a href="dist/devcv-react-angular.pdf" download="Julio-Dev-CV" className="greeting__btn--cv">Download CV</a>
                     <a href="#contactPage" className="greeting__btn--contact">Conctact</a>
                 </div>
             </div>
