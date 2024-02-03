@@ -7,8 +7,6 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiMongodb } from "react-icons/si";
-import { SiMongoose } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaNpm } from "react-icons/fa";
