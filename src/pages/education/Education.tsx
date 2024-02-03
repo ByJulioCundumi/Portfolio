@@ -18,19 +18,6 @@ function Education() {
             </div>
             <p className="education__uni">Catholic University Foundation of the North. [Colombia]</p>
         </div>
-
-        <div className="education__text">
-            <PiBooksThin className="education__icon"/>
-            <p className="education__degree">Tecnología en Desarrollo de Software</p>
-            <div className="education__date">
-                <p className="education__degree">6 Semestres</p>
-                <p>-</p>
-                <p>Ene 2022</p>
-                <p>-</p>
-                <p>2025</p>
-            </div>
-            <p className="education__uni">Fundación Universitaria Catolica del Norte. [Colombia]</p>
-        </div>
     </section>
   </>
 }

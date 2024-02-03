@@ -38,7 +38,7 @@ function Services() {
           <div className="services__card">
             <h4 className="services__card--title">Database Design</h4>
             <p className="services__card--p">
-              I offer relational and non-relational database design services.
+              I offer relational database design services.
             </p>
           </div>
         </div>

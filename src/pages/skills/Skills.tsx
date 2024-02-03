@@ -62,14 +62,6 @@ function Skills() {
                     <PiBracketsCurlyLight />
                     <p>TypeORM</p>
                 </div>
-                <div className="skills__box">
-                    <SiMongodb />
-                    <p>MongoDB</p>
-                </div>
-                <div className="skills__box">
-                    <SiMongoose />
-                    <p>Mongoose</p>
-                </div>
             </div>
             
             <div className="skills__tools">
