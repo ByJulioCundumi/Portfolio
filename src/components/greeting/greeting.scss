@@ -107,6 +107,7 @@
         flex-direction: column;
 
         &__img{
+            margin-left: -3rem;
 
             &--img{
                 top: 0;
@@ -114,6 +115,8 @@
                 height: 350px;
                 transition: 1s;
                 position: relative;
+                scale: 0.6;
+                margin: -2rem;
             }
     
             &--blob{
@@ -121,12 +124,9 @@
                 height: 370px;
                 transition: 1s;
                 position: absolute;
+                scale: 0.6;
+                margin: -2rem;
             }
-        }
-
-        &__img{
-            margin: 3rem 0;
-            margin-right: 4rem;
         }
 
         &__text{

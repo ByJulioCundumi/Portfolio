@@ -112,6 +112,12 @@
 
 @media (max-width:1000px){
     .projects{
+        padding: 0 1rem;
+
+        &__start{
+            gap: 1rem;
+        }
+
         &__card {
             display: flex;
             flex-direction: column;
@@ -127,6 +133,10 @@
             width: 90%;
             border-radius: 0.5rem;
             border: 1px solid rgba(0, 0, 0, 0.199);
+        }
+
+        &__gallery{
+            width: 100%;
         }
     }
 }

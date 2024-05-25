@@ -137,12 +137,11 @@
         }
 
         &__container {
-            flex-direction: column;
-            
+            flex-direction: column;   
         }
 
         &__line {
-            height: 200px;
+            display: none;
         }
     }
 }
