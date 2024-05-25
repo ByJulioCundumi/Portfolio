@@ -30,15 +30,19 @@
         transition: 0.5s;
 
         &--jobportal{
-            background-color: rgba(37, 230, 95, 0.527);
+            background-color: rgb(248, 237, 217);
         }
 
         &--ecommerce{
-            background-color: rgba(103, 205, 245, 0.562);
+            background-color: rgb(227, 246, 252);
+        }
+
+        &--nwordpass{
+            background-color: rgb(243, 246, 247);
         }
 
         &--tasks{
-            background-color: rgba(252, 174, 86, 0.548);
+            background-color: rgb(243, 246, 247);
         }
     }
 

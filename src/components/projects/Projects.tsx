@@ -1,7 +1,7 @@
 import "./projects.scss";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import ImageGallery from "react-image-gallery";
-import { jobPortalGallery, ecommerceGallery, tasksGallery } from "../../util/image.gallery";
+import { jobPortalGallery, ecommerceGallery, tasksGallery, nwordGallery } from "../../util/image.gallery";
 
 function Projects() {
 
@@ -13,6 +13,53 @@ function Projects() {
         <FaAngleDoubleDown />
       </div>
       <div className="projects__container">
+
+
+
+      <div className="projects__card projects__card--nwordpass">
+
+<div className="projects__text">
+  <h3 className="projects__name">PDF Certificate Generator - [React, Node]</h3>
+  <p className="projects__description">
+  I developed a Full-stack app that allows to register users and 
+  generate downloadable pdf certificates. I also implemented an admin dashboard to manage the application.
+  </p>
+
+  <div className="projects__tools">
+    <h4>Tools used:</h4>
+    <div className="projects__tools--used">
+      <p className="projects__tools--box">Html</p>
+      <p className="projects__tools--box">Css</p>
+      <p className="projects__tools--box">Scss</p>
+      <p className="projects__tools--box">Javascript</p>
+      <p className="projects__tools--box">Npm</p>
+      <p className="projects__tools--box">Typescript</p>
+      <p className="projects__tools--box">React</p>
+      <p className="projects__tools--box">NodeJs</p>
+      <p className="projects__tools--box">ExpressJs</p>
+      <p className="projects__tools--box">TypeORM</p>
+      <p className="projects__tools--box">Redux</p>
+    </div>
+  </div>
+  <div className="projects__btns">
+    <a href="https://mynwordpass.com" target="_blank" className="projects__btn">Review live App</a>
+  </div>
+</div>
+
+<div className="projects__gallery">
+  <ImageGallery
+    items={nwordGallery}
+    showPlayButton={false}
+    autoPlay={true}
+    showNav={false}
+    slideInterval={5000}
+    slideDuration={2000}
+  />
+</div>
+</div>
+
+
+
 
         <div className="projects__card projects__card--jobportal">
 

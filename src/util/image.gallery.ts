@@ -98,3 +98,38 @@ export const tasksGallery = [
         thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1706138185/portfolio/project-3/x8uma7aqqqor4pn9ip2b.png",
     }
 ]
+
+export const nwordGallery = [
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/y6igexg83vmqapi6dxlf.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/y6igexg83vmqapi6dxlf.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/eopj4kfch08yi7lkr6t7.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/eopj4kfch08yi7lkr6t7.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/ob1fvmvhcgifueoc3isc.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/ob1fvmvhcgifueoc3isc.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/zkz2mczwpn3tuaqlbxbx.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/zkz2mczwpn3tuaqlbxbx.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/fvdyehvgbxscrroqvpq9.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/fvdyehvgbxscrroqvpq9.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677225/portfolio/project-4/hxx0phproz5kdlg8oste.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677225/portfolio/project-4/hxx0phproz5kdlg8oste.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677225/portfolio/project-4/tbfrnhfegnji1r1gvmue.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677225/portfolio/project-4/tbfrnhfegnji1r1gvmue.png",
+    },
+    {
+        original: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/lvrlbpwfuwgh1fmtg2hp.png",
+        thumbnail: "https://res.cloudinary.com/dscmahnke/image/upload/v1716677224/portfolio/project-4/lvrlbpwfuwgh1fmtg2hp.png",
+    }
+]
